@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../static/css/aboutusstyles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="../static/js/jquery.js"></script>
+</head>
+<body>
+		<div class="block1">
+		<div class="hamburger"><i class="fa fa-bars fa-2x menuhideshow"></i></div>
+	<div>
+		<nav>
+			<ul class="navham">
+				<li><a href="{{ url_for('all_main') }}">Home</a></li>
+        		<li><a href="{{ url_for('postfood') }}">Post</a></li>
+        		<li><a href="{{ url_for('show_all') }}">Get</a></li>
+        		<li><a href="{{ url_for('new') }}">Register</a></li>
+        		<li><a href="{{ url_for('dny') }}">Donate</a></li>
+        		<li><a href="{{ url_for('about') }}">About Us</a></li>
+			</ul>
+		</nav>
+	</div>
+		<div class="head">
+
+		<h1>
+			<a href="#">FOOD FOR EVERYONE</a>
+		</h1>
+		
+			<h2><a href="#">"Organization For People By People"</a></h2>
+	
+	</div>
+	</div>
+	<div class="aboutus">
+		<article class="aboutinfo">
+		<h1>ABOUT US</h1>
+		<p>“You waste life when you waste food.” - Katherine Anne Porter</p>
+
+  <p>On an average, a child dies every 5 seconds as a result of hunger.</p>
+
+ <p>Although there are hundreds of people who die starving on roads, still there is tonnes and tonnes of food wasted each day.</p>
+
+<p>People are spending lots of bucks on buying food which they don’t even consume. And there are people who are not even able to earn their daily bread and butter. </p>
+
+<p>The Food to Feed website comes as a solution to this problem.
+Our website has brought smile on faces of hundreds of starving people, struggling to earn their daily meal.
+
+With the help of our website, you can share your food with those in need rather than just throwing the food in garbage.</p>
+
+<p>If you have some food which you don’t feel like eating it and is going to get spoiled or expired soon, then rather than just putting it in the trash can, you can share this food with someone who actually needs it and you can be the reason for the smile on the face of that needy person.
+All you have to do is just put a post about the food along with your contact information and the food description and the person in need will get to you.</p>
+
+<p>This website is beneficial for both the giver as well as the taker as the giver can get the joy of sharing the food and blessings of the needy person  and the taker will have something to satisfy the hunger and a smile on face.</p>
+
+<p>You can also provide some donation to our organization to be a part of this noble cause of preventing the food wastage and feeding the people in need.</p>
+
+<p>Share it, don’t trash it.</p>
+		</article>
+	</div>
+<footer class="footerdesign">
+<div class="footermenu">
+	<nav>
+		<ul>
+			<h1>Navigate</h1>
+			<li><a href="{{ url_for('all_main') }}">Home</a></li>
+        		<li><a href="{{ url_for('postfood') }}">Post</a></li>
+        		<li><a href="{{ url_for('show_all') }}">Get</a></li>
+        		<li><a href="{{ url_for('new') }}">Register</a></li>
+        		<li><a href="{{ url_for('dny') }}">Donate</a></li>
+        		<li><a href="{{ url_for('about') }}">About Us</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="footermenu">
+	<nav>
+	
+		<ul>
+		<h1>Social</h1>
+			<li><a href="#">FACEBOOK</a></li>
+			<li><a href="#">TWITTER</a></li>
+			<li><a href="#">INSTAGRAM</a></li>
+			<li><a href="#">PINTEREST</a></li>
+			<li><a href="#">TUMBLR</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="footerabout">
+	<h1>FD</h1>
+	<h5>Food to Feed Organization</h5>
+	<h5>All Rights Reserved &copy; 2016</h5>
+</div>
+</footer>
+</body>
+</html>
