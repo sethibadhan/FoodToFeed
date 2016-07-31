@@ -33,8 +33,8 @@ def __init__(self,first,email):
 class post(db.Model):
    id = db.Column('post_id', db.Integer, primary_key = True)
    fullname = db.Column(db.String(20))
-   email  = db.Column(db.String(20), unique=True)
-   phoneno = db.Column(db.String(20), unique=True)
+   email  = db.Column(db.String(20))
+   phoneno = db.Column(db.String(20))
    itemname= db.Column(db.String(20))
    pickuptime = db.Column(db.String(20))
    address = db.Column(db.String(20))
@@ -56,7 +56,7 @@ class donation(db.Model):
    firstname = db.Column(db.String(20))
    lastname  = db.Column(db.String(20))
    demail= db.Column(db.String(20))
-   dphoneno = db.Column(db.String(20), unique=True)
+   dphoneno = db.Column(db.String(20))
    daddress = db.Column(db.String(20))
    cardno = db.Column(db.String(20), unique=True)
    amount = db.Column(db.String(20))
@@ -133,8 +133,8 @@ def postfood():
               'Hello',
              sender='harjot.kaur.panag@gmail.com',
              recipients=emails)
-
-         msg.body = "Some food aviable to eat"
+         msg.body = posts.address
+         msg.body += posts.description
          mail.send(msg)
 
          db.session.add(posts)
