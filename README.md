@@ -1,32 +1,40 @@
-# FoodToFeed
-It is Python based project which deals with the wastage of food.
+<h1>Project Python</h1>
+<ol>
+<h2>Team Member</h2>
+<li>Sethi</li>
+<li>Parvir Singh</li>
+</ol>
+<h1># FoodToFeed</h1>
+<p>It is Python based project which deals with the wastage of food.</p>
+<ul>
+<li>Tools Needed</li>
+<li>Python</li>
+<li>Flask</li>
+<li>Sqlalchemy</li>
+<li>Flask-mail</li>
+</ul>
+<li>You first need to install python</li>
+<li>then you need to create virtual Enviornment using pip</li>
+<li>Foolow the steps like this</li>
 
-Tools Needed
-Python
-Flask
-Sqlalchemy
-Flask-mail
+<li>Install Python</li>
+<li>Then Open powershell in windows</li>
+<li>Make Directories like</li>
 
-You first need to install python
-then you need to create virtual Enviornment using pip
-Foolow the steps like this
-
-Install Python
-Then Open powershell in windows
-Make Directories like
-
-Mkdir project
-cd project
-mkdir static
-mkdir templates
-put all the Html files in templaes and all css files in static folder
-create virtual enviornment using there commands
-pip install virtualenv
-pip install flask
-pip install flask-sqlalchemy
-pip install Flask-mail
-to run simply type python register.py
-open browser and type following url localhost:5000
+<ul>
+<li>Mkdir project</li>
+<li>cd project</li>
+<li>mkdir static</li>
+<li>mkdir templates</li>
+<li>put all the Html files in templaes and all css files in static folder</li>
+<li>create virtual enviornment using there commands</li>
+<li>pip install virtualenv</li>
+<li>pip install flask</li>
+<li>pip install flask-sqlalchemy</li>
+<li>pip install Flask-mail</li>
+<li>to run simply type python register.py</li>
+<li>open browser and type following url localhost:5000</li>
+</ul>
 
 
 
