@@ -15,7 +15,7 @@
 </ul>
 <li>You first need to install python</li>
 <li>then you need to create virtual Enviornment using pip</li>
-<li>Foolow the steps like this</li>
+<li>Follow the steps like this</li>
 
 <li>Install Python</li>
 <li>Then Open powershell in windows</li>
@@ -28,7 +28,8 @@
 <li>mkdir templates</li>
 <li>put all the Html files in templaes and all css files in static folder</li>
 <li>create virtual enviornment using there commands</li>
-<li>pip install virtualenv</li>
+<li>virtualenv flask</li>
+<li>source flask/bin/activate</li>
 <li>pip install flask</li>
 <li>pip install flask-sqlalchemy</li>
 <li>pip install Flask-mail</li>
